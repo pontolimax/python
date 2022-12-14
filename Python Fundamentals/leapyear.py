@@ -17,7 +17,7 @@ can_be_divided_by_400: bool = year % 400 == 0
 is_leapyear: bool = can_be_divided_by_4 and can_not_be_divided_by_100 or can_be_divided_by_400
 
 # Print the result
-print(year, " is a leap year : ", is_leapyear)
+print(year, "is a leap year :", is_leapyear)
 
 # Output:
 # > python .\leapyear.py
