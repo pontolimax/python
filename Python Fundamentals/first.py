@@ -1,3 +1,3 @@
 '''Yo!'''
-naam = input("Wat is je naam? ")
-print("Hallo", naam)
+name = input("What is your name? ")
+print(f"Hello {name}!")
