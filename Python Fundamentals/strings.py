@@ -1,7 +1,7 @@
-'''Experiment with strings.'''
+'''1.6: Experiment with strings.'''
 
 # Ask the user to input some tekst and store the response in a variable t
-t = input("Input some text: ")
+t: str = input("Input some text: ")
 
 # Print the tekst in all uppercase and also in all lowercase characters
 print("upper:", t.upper())

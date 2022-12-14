@@ -1,4 +1,4 @@
-'''A program that simulates throwing 5 dice.'''
+'''1.5: A program that simulates throwing 5 dice.'''
 
 # Import the random library
 import random

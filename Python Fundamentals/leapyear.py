@@ -1,4 +1,4 @@
-'''A program that determines if a year is a leapyear.'''
+'''1.3: A program that determines if a year is a leapyear.'''
 
 # Ask the user to input a year.
 input_year: str = input('Year: ')
