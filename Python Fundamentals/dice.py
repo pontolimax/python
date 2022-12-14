@@ -2,7 +2,9 @@
 
 # Import the random library
 import random
-# Generate a random number between 1 and 6 with random.randint(1, 6) and store the number in a variable dice1.
+
+# Generate a random number between 1 and 6 with random.randint(1, 6)
+# and store the number in a variable dice1.
 dice1: int = random.randint(1, 6)
 
 # Repeat this 4 more times creating variables dice2 up to dice5.
