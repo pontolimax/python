@@ -4,11 +4,11 @@
 t: str = input("Input some text: ")
 
 # Print the tekst in all uppercase and also in all lowercase characters
-print("upper:", t.upper())
+print("UPPER:", t.upper())
 print("lower:", t.lower())
 
 # Use the capitalize() and title() methods and print the results
-print("capitalize:", t.capitalize())
+print("Capitalize:", t.capitalize())
 print("title:", t.title())
 
 # Print the first three characters by using slicing
@@ -19,7 +19,7 @@ print("Ends with '?' :", t[-1] == '?')
 
 # Print the text in lowercase with all spaces replaced by an underscore
 # by using the method replace(). This is called snake_case
-print("snake_case:", t.replace(' ', '_'))
+print("snake_case:", t.lower().replace(' ', '_'))
 
 # Output:
 # > python .\strings.py
