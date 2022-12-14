@@ -1,7 +1,7 @@
 '''1.9: Guessing game'''
 
 import random
-secret_number = random.randint(1, 100)
+secret_number: int = random.randint(1, 100)
 nr_guesses: int = 0
 
 print('Guess a number between 1 and 100')
