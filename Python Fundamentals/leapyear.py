@@ -19,6 +19,7 @@ is_leapyear: bool = can_be_divided_by_4 and can_not_be_divided_by_100 or can_be_
 # Print the result
 print(year, " is a leap year : ", is_leapyear)
 
+# Output:
 # > python .\leapyear.py
 # Year: 2022
 # 2022  is a leap year :  False
