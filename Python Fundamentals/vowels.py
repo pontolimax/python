@@ -4,16 +4,15 @@
 text: str = input("Enter some text: ")
 # Loop through the vowels['a', 'e', 'i', 'o', 'u', 'y']
 number_vowels: int = 0
-for vowel in ['a', 'e', 'i', 'o', 'u', 'y']:
+for vowel in 'aeiouy':
     # Count the number of occurances of each vowel in the text
     # Print a message for each vowel indicating the number of occurances
-    count_vowel = text.count(vowel)
+    count_vowel: int = text.lower().count(vowel)
     number_vowels += count_vowel
     print(f'{vowel}: {count_vowel}')
 
 # After looping through the vowels
 # … print a message indicating the total length of the text
-text_length: int = text.count('') - 1
-print(f'Text length: {text_length}')
+print(f'Text length: {len(text)}')
 # … and the total number of vowels
 print(f'Number of vowels: {number_vowels}')
