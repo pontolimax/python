@@ -1,20 +1,15 @@
 '''2.6: Range of floats'''
 
-# The range function can only generate integers.
-# Create a generator function that kan generate a sequence
-# of floats similar to the bulit-in function range.
+# A generator function that can generate a sequence
+# of floats similar to the built-in function range.
 
-# You can use standard floats to achieve this but using Decimal will improve the precision.
+# Using Decimal will improve the precision.
 from decimal import Decimal
 
-# Define a function drange with arguments start, stop, step and endpoint.
-# The endpoint arguments specifies if the endpoint is included or not.
-# Give default values 1 for the step and False for endpoint.
 
-
-def drange(start: Decimal, stop: Decimal, step: Decimal = 1.0, endpoint=False):
+def drange(start: Decimal, stop: Decimal, step: Decimal = 1.0, endpoint=False) -> list[Decimal]:
     '''Create a loop that calculates the numbers from start to end with an increment of step.'''
-    # If endpoint is set to true also include the endpoint also.
+    # The endpoint arguments specifies if the endpoint is included or not.
     number: Decimal = start
     numbers: list[Decimal] = []
     while number < stop or (endpoint and number <= stop):
