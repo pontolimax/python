@@ -1,7 +1,6 @@
 '''2.7: Sort a list'''
 
 # Create a function called number_of_vowels to count the number of vowels
-# tip:
 
 
 def number_of_vowels(word: str) -> int:
