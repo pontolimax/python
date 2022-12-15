@@ -15,3 +15,9 @@ random.shuffle(characters)
 password: str = ''.join(characters)
 
 print(password)
+
+# Output:
+# > python .\passwords.py
+# 5yM2V.2!Z?lk
+# > python .\passwords.py
+# +u3r9Eb_G0;S
