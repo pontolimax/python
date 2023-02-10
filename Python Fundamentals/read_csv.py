@@ -1,10 +1,10 @@
 '''2.9: Read a CSV file'''
 
 # Get the ca-500.csv file
-filename: str = 'ca-500.ca'
+filename: str = 'ca-500.csv'
 
 # Open the file within a context manager with the keyword with
-with open('./ca-500.csv', 'r', encoding='utf-8') as f:
+with open(filename, 'r', encoding='utf-8') as f:
 
     # Read the first line. The header.
     headers: list[str] = f.readline().rstrip('\n').split(';')
